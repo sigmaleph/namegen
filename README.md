@@ -12,12 +12,19 @@ Optional arguments:
   -n NUMBER, --number NUMBER
                         number of names to output
   -f, --fake            output generated names rather than existing ones
+  
+  
   -p {-1,0,1}, --popularity {-1,0,1}
                         1 is popularity weighting, -1 is inverse weighting, 0 is no weighting
+                        
+                        
   -g {m,f,n}, --gender {m,f,n}
                         m returns masculine names, f returns feminine names, n returns gender-neutral names
+                        
+                        
   -t {fake,real,first,last,full}, --type {fake,real,first,last,full}
-                        fake returns fake names (equivalent to -f), real or first returns real first names, last
-                        returns real last names, full returns first name/last name pairs
+                        fake returns fake names (equivalent to -f), real or first returns real first names, last returns real last names, full returns first name/last name pairs
+                        
   --agemin AGEMIN       will return names older than this age
+  
   --agemax AGEMAX       will return names younger than this age
