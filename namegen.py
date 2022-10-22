@@ -53,7 +53,7 @@ def last_name(amount=1, pop_weighted=None):
     return names['name'].sample(n=amount, weights=weights).to_numpy()
 
 def name_return(amount=1,name_type='real', pop_weighted=None, gender=None, age_min=None, age_max=None):
-    if name_type=='real' or name_type=='first':
+    if name_type=='real' or name_type=='first' or name_type==None:
         output=real_name(amount=amount,pop_weighted=pop_weighted, gender=gender, age_min=age_min, age_max=age_max)
         
     elif name_type=='fake':
